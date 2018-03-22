@@ -9,5 +9,4 @@ def main():
 		printv(value,n)
 	except:
 		print('invalid input')
-main()
-p
+		print
