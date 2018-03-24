@@ -20,3 +20,5 @@ try:
 	midchenge()
 except:
 	print('invalid')
+pr
+pr
