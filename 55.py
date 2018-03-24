@@ -10,3 +10,4 @@ def mul2():
 		oddeven(m*n)
 	except:
 		print('invalid')
+print
