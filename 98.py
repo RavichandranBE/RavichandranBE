@@ -11,3 +11,4 @@ try:
 	changed()
 except:
 	print('invalid')
+print
