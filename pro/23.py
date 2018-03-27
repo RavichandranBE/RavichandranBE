@@ -20,3 +20,4 @@ def pro_23():
 				y-=1
 	return (x==0 and y==0)
 pro_23()
+p
