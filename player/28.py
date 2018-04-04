@@ -15,4 +15,4 @@ def removeSpaces(string):
     return ''.join(List)
  a=input()
  print removeSpaces(a)
- p
+ print
