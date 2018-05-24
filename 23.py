@@ -1,3 +1,2 @@
-n=input("Enter array value:")
-print(min(list(map(int,input("Enter array values").split(' ')))))
-pr
+n=input("Enter the value:")
+print(min(list(map(int,input("Enter the value").split(' ')))))
