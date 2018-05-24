@@ -1,10 +1,8 @@
-base=int(input("enter the base number: ")
-exp=int(input("enter the exp number : ")
+base=int(input("Enter base:"))
+exp=int(input("Enter exp value:"))
 def power(base,exp):
-res=1
-for i in range(exp)
-res=res*base
-print res
-return res
-print power(base,exp)
-pr
+    if(exp==1):
+        return(base)
+    if(exp!=1):
+        return(base*power(base,exp-1))
+print("Result:",power(base,exp))
