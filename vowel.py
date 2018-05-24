@@ -1,8 +1,8 @@
 #python 3.5.2
-l = input("Input a letter of the alphabet: ")
+ 
+a= input("Enter a character ")
 
-if l in ('a', 'e', 'i', 'o', 'u'):
-	print("%s is a vowel." % l)
-elif l == 'y':
-	
-	print("%s is a consonant." % l) 
+if a is ('a', 'e', 'i', 'o', 'u'):
+    print(a, "is a Vowel")
+else:
+    print(a, "is a Consonant")
