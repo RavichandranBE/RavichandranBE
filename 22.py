@@ -1,6 +1,6 @@
 try:
-	n1=int(input())
-	n2=int(input())
+	n1=input('enter the number')
+	n2=input('enter the number')
 	while(n2!=0):
 		t=n2
 		n2=n1%n2
@@ -8,4 +8,3 @@ try:
 	print(n1)
 except:
 	print('invalid')
-  pr
