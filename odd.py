@@ -1,9 +1,5 @@
-def main():
-  m=int(input(""))
-  n=int(input(""))
-  for i in range(m+1,n+1):
+lower=int(input("Enter the lower limit for the range:"))
+upper=int(input("Enter the upper limit for the range:"))
+for i in range(lower,upper+1):
     if(i%2!=0):
         print(i)
-if __name__ == '__main__':
-    main()
-    pr
